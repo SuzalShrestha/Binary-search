@@ -31,7 +31,7 @@ describe ('Search', function () {
     expect(binarySearch(arr, 1000000)).to.equal(-1);
 
   });
-
+//these test doesnot pass for slow computers like mine
   it('performs at least 500 linear searches in under 1 second', function () {
 
     const timeout = 1000;
